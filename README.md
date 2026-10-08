@@ -4,7 +4,7 @@ A showcase catalog for 50 local-first product template foundations. The source p
 
 ## Public website deployments
 
-The public catalog is live at https://forma-50-catalog-preview.vercel.app. This is a direct static snapshot, not yet connected to GitHub for automatic redeploys. The 50 individual demo links remain pending until their Vercel projects are deployed.
+Public repository: https://github.com/rajahaider50/forma-foundations-studio. The Git-connected catalog is live at https://forma-foundations-studio.vercel.app. Vercel limits a Git repository to 25 linked projects, so the catalog plus templates 01–24 are Git-connected; templates 25–50 are deployed directly from the same repository's `main` source. Those direct-source projects require a redeploy after later source changes. All 50 public demo domains returned HTTP 200 in the final verification on 2026-10-09. See [`LIVE_LINKS.md`](LIVE_LINKS.md) for the complete list. The admin panel is browser-local only and does not publish edits to other visitors; no hosted database or authentication service is configured.
 
 Vercel monorepo projects use these root directories:
 
