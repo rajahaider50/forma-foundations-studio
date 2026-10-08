@@ -4,6 +4,8 @@ A showcase catalog for 50 local-first product template foundations. The source p
 
 ## Public website deployments
 
+The public catalog is live at https://forma-50-catalog-preview.vercel.app. This is a direct static snapshot, not yet connected to GitHub for automatic redeploys. The 50 individual demo links remain pending until their Vercel projects are deployed.
+
 Vercel monorepo projects use these root directories:
 
 - Catalog: `catalog`
