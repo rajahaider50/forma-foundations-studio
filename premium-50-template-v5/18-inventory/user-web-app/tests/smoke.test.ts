@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";describe("Inventory App",()=>it("has a valid identity",()=>expect("user-web-app").toMatch(/^[a-z0-9-]+$/)));

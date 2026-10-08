@@ -1,0 +1,464 @@
+[
+  {
+    "id": "01-saas-dashboard",
+    "name": "SaaS Dashboard",
+    "modules": [
+      "workspaces",
+      "projects",
+      "tasks",
+      "analytics"
+    ]
+  },
+  {
+    "id": "02-e-commerce",
+    "name": "E-Commerce",
+    "modules": [
+      "products",
+      "cart",
+      "checkout",
+      "orders"
+    ]
+  },
+  {
+    "id": "03-booking-platform",
+    "name": "Booking Platform",
+    "modules": [
+      "services",
+      "availability",
+      "bookings"
+    ]
+  },
+  {
+    "id": "04-crm",
+    "name": "CRM",
+    "modules": [
+      "contacts",
+      "leads",
+      "notes",
+      "pipelines"
+    ]
+  },
+  {
+    "id": "05-project-manager",
+    "name": "Project Manager",
+    "modules": [
+      "projects",
+      "tasks",
+      "kanban",
+      "calendar"
+    ]
+  },
+  {
+    "id": "06-invoicing",
+    "name": "Invoicing",
+    "modules": [
+      "clients",
+      "invoices",
+      "payments"
+    ]
+  },
+  {
+    "id": "07-finance-tracker",
+    "name": "Finance Tracker",
+    "modules": [
+      "transactions",
+      "budgets",
+      "accounts"
+    ]
+  },
+  {
+    "id": "08-fitness-tracker",
+    "name": "Fitness Tracker",
+    "modules": [
+      "workouts",
+      "goals",
+      "progress"
+    ]
+  },
+  {
+    "id": "09-learning-platform",
+    "name": "Learning Platform",
+    "modules": [
+      "courses",
+      "lessons",
+      "quizzes",
+      "progress"
+    ]
+  },
+  {
+    "id": "10-real-estate",
+    "name": "Real Estate",
+    "modules": [
+      "listings",
+      "viewings",
+      "favorites"
+    ]
+  },
+  {
+    "id": "11-food-delivery",
+    "name": "Food Delivery",
+    "modules": [
+      "restaurants",
+      "menu",
+      "cart",
+      "orders"
+    ]
+  },
+  {
+    "id": "12-travel-planner",
+    "name": "Travel Planner",
+    "modules": [
+      "trips",
+      "itinerary",
+      "places"
+    ]
+  },
+  {
+    "id": "13-event-management",
+    "name": "Event Management",
+    "modules": [
+      "events",
+      "tickets",
+      "attendees"
+    ]
+  },
+  {
+    "id": "14-helpdesk",
+    "name": "Helpdesk",
+    "modules": [
+      "tickets",
+      "agents",
+      "knowledgebase"
+    ]
+  },
+  {
+    "id": "15-chat-app",
+    "name": "Chat App",
+    "modules": [
+      "threads",
+      "messages",
+      "attachments"
+    ]
+  },
+  {
+    "id": "16-social-feed",
+    "name": "Social Feed",
+    "modules": [
+      "posts",
+      "comments",
+      "reactions",
+      "following"
+    ]
+  },
+  {
+    "id": "17-job-board",
+    "name": "Job Board",
+    "modules": [
+      "jobs",
+      "companies",
+      "applications"
+    ]
+  },
+  {
+    "id": "18-inventory",
+    "name": "Inventory",
+    "modules": [
+      "items",
+      "warehouses",
+      "stock"
+    ]
+  },
+  {
+    "id": "19-point-of-sale",
+    "name": "Point of Sale",
+    "modules": [
+      "products",
+      "carts",
+      "sales"
+    ]
+  },
+  {
+    "id": "20-analytics",
+    "name": "Analytics",
+    "modules": [
+      "dashboards",
+      "metrics",
+      "reports"
+    ]
+  },
+  {
+    "id": "21-internal-tools",
+    "name": "Internal Tools",
+    "modules": [
+      "users",
+      "roles",
+      "workflows"
+    ]
+  },
+  {
+    "id": "22-content-cms",
+    "name": "Content CMS",
+    "modules": [
+      "posts",
+      "media",
+      "drafts",
+      "publishing"
+    ]
+  },
+  {
+    "id": "23-blog",
+    "name": "Blog",
+    "modules": [
+      "posts",
+      "authors",
+      "bookmarks"
+    ]
+  },
+  {
+    "id": "24-podcast",
+    "name": "Podcast",
+    "modules": [
+      "shows",
+      "episodes",
+      "queue"
+    ]
+  },
+  {
+    "id": "25-music-library",
+    "name": "Music Library",
+    "modules": [
+      "artists",
+      "albums",
+      "tracks",
+      "playlists"
+    ]
+  },
+  {
+    "id": "26-video-library",
+    "name": "Video Library",
+    "modules": [
+      "videos",
+      "watchlist",
+      "progress"
+    ]
+  },
+  {
+    "id": "27-ai-assistant",
+    "name": "AI Assistant",
+    "modules": [
+      "threads",
+      "prompts",
+      "usage"
+    ]
+  },
+  {
+    "id": "28-document-editor",
+    "name": "Document Editor",
+    "modules": [
+      "documents",
+      "versions",
+      "comments"
+    ]
+  },
+  {
+    "id": "29-file-manager",
+    "name": "File Manager",
+    "modules": [
+      "files",
+      "folders",
+      "sharing"
+    ]
+  },
+  {
+    "id": "30-calendar",
+    "name": "Calendar",
+    "modules": [
+      "events",
+      "attendees",
+      "reminders"
+    ]
+  },
+  {
+    "id": "31-habit-tracker",
+    "name": "Habit Tracker",
+    "modules": [
+      "habits",
+      "checkins",
+      "streaks"
+    ]
+  },
+  {
+    "id": "32-expense-split",
+    "name": "Expense Split",
+    "modules": [
+      "groups",
+      "expenses",
+      "balances"
+    ]
+  },
+  {
+    "id": "33-subscription-manager",
+    "name": "Subscription Manager",
+    "modules": [
+      "subscriptions",
+      "renewals",
+      "billing"
+    ]
+  },
+  {
+    "id": "34-password-manager",
+    "name": "Password Manager",
+    "modules": [
+      "vault",
+      "items",
+      "sharing"
+    ]
+  },
+  {
+    "id": "35-support-portal",
+    "name": "Support Portal",
+    "modules": [
+      "faq",
+      "tickets",
+      "feedback"
+    ]
+  },
+  {
+    "id": "36-community",
+    "name": "Community",
+    "modules": [
+      "groups",
+      "posts",
+      "reactions",
+      "members"
+    ]
+  },
+  {
+    "id": "37-marketplace",
+    "name": "Marketplace",
+    "modules": [
+      "listings",
+      "favorites",
+      "messages"
+    ]
+  },
+  {
+    "id": "38-restaurant-admin",
+    "name": "Restaurant Admin",
+    "modules": [
+      "orders",
+      "menu",
+      "kitchen",
+      "staff"
+    ]
+  },
+  {
+    "id": "39-school-admin",
+    "name": "School Admin",
+    "modules": [
+      "students",
+      "attendance",
+      "grades"
+    ]
+  },
+  {
+    "id": "40-hospital-admin",
+    "name": "Hospital Admin",
+    "modules": [
+      "patients",
+      "appointments",
+      "records"
+    ]
+  },
+  {
+    "id": "41-hotel-admin",
+    "name": "Hotel Admin",
+    "modules": [
+      "rooms",
+      "reservations",
+      "guests"
+    ]
+  },
+  {
+    "id": "42-logistics",
+    "name": "Logistics",
+    "modules": [
+      "shipments",
+      "tracking",
+      "dispatch"
+    ]
+  },
+  {
+    "id": "43-fleet-manager",
+    "name": "Fleet Manager",
+    "modules": [
+      "vehicles",
+      "drivers",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "44-monitoring",
+    "name": "Monitoring",
+    "modules": [
+      "services",
+      "alerts",
+      "logs"
+    ]
+  },
+  {
+    "id": "45-survey-builder",
+    "name": "Survey Builder",
+    "modules": [
+      "surveys",
+      "questions",
+      "responses"
+    ]
+  },
+  {
+    "id": "46-form-builder",
+    "name": "Form Builder",
+    "modules": [
+      "forms",
+      "fields",
+      "submissions"
+    ]
+  },
+  {
+    "id": "47-portfolio-studio",
+    "name": "Portfolio Studio",
+    "modules": [
+      "projects",
+      "case-studies",
+      "leads"
+    ]
+  },
+  {
+    "id": "48-agency-studio",
+    "name": "Agency Studio",
+    "modules": [
+      "services",
+      "projects",
+      "leads"
+    ]
+  },
+  {
+    "id": "49-digital-wallet",
+    "name": "Digital Wallet",
+    "modules": [
+      "accounts",
+      "transfers",
+      "transactions"
+    ]
+  },
+  {
+    "id": "50-mobile-commerce",
+    "name": "Mobile Commerce",
+    "modules": [
+      "products",
+      "cart",
+      "orders",
+      "delivery"
+    ]
+  }
+]

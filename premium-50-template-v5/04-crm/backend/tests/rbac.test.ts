@@ -1,0 +1,1 @@
+import {describe,it,expect} from "vitest";import {allowed} from "../src/rbac";describe("RBAC",()=>{it("restricts users",()=>{expect(allowed("user","delete")).toBe(false);expect(allowed("admin","delete")).toBe(true)})})

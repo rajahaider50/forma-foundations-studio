@@ -1,0 +1,1 @@
+"use client"; export default function GlobalError({reset}:{reset:()=>void}){return <main className="grid min-h-screen place-items-center p-6"><div className="glass rounded-3xl p-8 text-center"><h1 className="text-2xl font-bold">Something went wrong</h1><button onClick={reset} className="mt-5 rounded-full bg-white px-5 py-3 font-bold text-black">Try again</button></div></main>}

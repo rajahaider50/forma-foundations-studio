@@ -1,0 +1,5 @@
+package com.premium.template.userandroid.data.repository
+import com.premium.template.userandroid.core.database.Cache
+import com.premium.template.userandroid.core.model.DomainItem
+import com.premium.template.userandroid.domain.repository.DomainRepository
+class DomainRepositoryImpl(private val cache:Cache):DomainRepository{override suspend fun list(module:String):List<DomainItem>{val hit=cache.all().filter{it.module==module};if(hit.isNotEmpty())return hit;val seed=(1..8).map{DomainItem("$module-${it}",module,"${module.replaceFirstChar{c->c.uppercase()}} ${it}","active")};cache.replace(cache.all()+seed);return seed}override suspend fun create(module:String)=DomainItem("$module-${System.currentTimeMillis()}",module,"New ${module}","draft").also(cache::add);override suspend fun update(id:String,title:String,status:String,module:String):DomainItem{val old=cache.all().firstOrNull{it.id==id}?:throw IllegalArgumentException("NOT_FOUND");val next=old.copy(title=title,status=status);cache.replace(cache.all().map{if(it.id==id)next else it});return next}override suspend fun delete(id:String){cache.remove(id)}}

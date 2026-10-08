@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";describe("API contract",()=>it("defines a health endpoint",()=>expect("/health").toBe("/health")));

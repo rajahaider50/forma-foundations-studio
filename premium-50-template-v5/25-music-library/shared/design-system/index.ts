@@ -1,0 +1,1 @@
+export const designTokens={radius:{sm:10,md:16,lg:24},spacing:{xs:4,sm:8,md:16,lg:24,xl:32},motion:{fast:140,normal:220,slow:360},colors:{bg:'#08070d',surface:'rgba(255,255,255,.06)',violet:'#8b5cf6',cyan:'#22d3ee',text:'#f8fafc',muted:'#94a3b8'}} as const;

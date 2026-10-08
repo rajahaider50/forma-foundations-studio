@@ -1,0 +1,24 @@
+{
+  "version": "3.0.0",
+  "templates": 50,
+  "required_surfaces": [
+    "public-website",
+    "user-web-app",
+    "user-android",
+    "admin-website",
+    "admin-web-app",
+    "admin-android",
+    "backend"
+  ],
+  "shared_layers": [
+    "types",
+    "validation",
+    "mock-data",
+    "mock-services",
+    "api-client",
+    "auth",
+    "state",
+    "components"
+  ],
+  "external_integrations": "interface+mock only; client credentials required for live providers"
+}

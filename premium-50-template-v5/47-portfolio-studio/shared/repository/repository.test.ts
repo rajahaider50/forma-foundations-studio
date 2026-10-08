@@ -1,0 +1,2 @@
+import {describe,it,expect} from 'vitest';import {LocalRepository} from './index';
+describe('Portfolio Studio repository',()=>{it('lists seeded module data and supports CRUD',async()=>{const repo=new LocalRepository();const before=await repo.list('projects');expect(before.length).toBeGreaterThan(0);const created=await repo.create({module:'projects',title:'Test record',status:'draft',ownerId:'local-user',metadata:{}} as any);expect(created.title).toBe('Test record');await repo.remove(created.id);expect((await repo.list('projects')).some(x=>x.id===created.id)).toBe(false)})});

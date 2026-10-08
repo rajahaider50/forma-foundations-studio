@@ -1,0 +1,8 @@
+import type {OtpProvider,EmailProvider,PaymentProvider,StorageProvider,MapsProvider,AiProvider} from './contracts';
+const id=()=>`test-${Date.now()}-${Math.random().toString(36).slice(2,8)}`;
+export class MockOtp implements OtpProvider{private codes=new Map<string,string>();async send(_target:string){const requestId=id();const code=String(Math.floor(100000+Math.random()*900000));this.codes.set(requestId,code);return {requestId,testCode:code}}async verify(requestId:string,code:string){return this.codes.get(requestId)===code}}
+export class MockEmail implements EmailProvider{async send(_input:{to:string;subject:string;html:string}){return {id:id()}}}
+export class MockPayment implements PaymentProvider{async createCheckout(input:{amount:number;currency:string;reference:string}){const status:'success'|'failed'=input.amount>0?'success':'failed';return {id:id(),status}}}
+export class MockStorage implements StorageProvider{async put(input:{key:string;contentType:string;bytes:Uint8Array}){return {key:input.key,url:`local://files/${encodeURIComponent(input.key)}`}}}
+export class MockMaps implements MapsProvider{async geocode(query:string){const h=Array.from(query).reduce((a,c)=>(a*31+c.charCodeAt(0))>>>0,7);return [{lat:((h%180000)/1000)-90,lng:(((h/180000|0)%360000)/1000)-180,label:`Local geocode: ${query}`}]}}
+export class MockAi implements AiProvider{async complete(input:{system?:string;prompt:string}){return {text:`Local provider response generated from the supplied prompt (${input.prompt.length} characters).`,usage:{input:input.prompt.length,output:Math.min(128,input.prompt.length+32)}}}}

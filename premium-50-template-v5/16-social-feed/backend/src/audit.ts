@@ -1,0 +1,1 @@
+export type AuditEntry={id:string,actorId:string,action:string,resource:string,resourceId?:string,at:string,metadata?:Record<string,unknown>};const entries:AuditEntry[]=[];export function audit(e:Omit<AuditEntry,"id"|"at">){const out={...e,id:crypto.randomUUID(),at:new Date().toISOString()};entries.unshift(out);return out}export function listAudit(){return entries.slice(0,200)}

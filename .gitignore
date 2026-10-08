@@ -1,0 +1,16 @@
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/.gradle/
+**/local.properties
+**/*.jks
+**/*.keystore
+.env
+.env.*
+!.env.example
+.DS_Store
+**/.vercel/
+
+**/*.tsbuildinfo

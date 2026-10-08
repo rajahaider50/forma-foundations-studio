@@ -1,0 +1,2 @@
+import {describe,it,expect} from 'vitest';import {LocalRepository} from './index';
+describe('Job Board repository',()=>{it('lists seeded module data and supports CRUD',async()=>{const repo=new LocalRepository();const before=await repo.list('jobs');expect(before.length).toBeGreaterThan(0);const created=await repo.create({module:'jobs',title:'Test record',status:'draft',ownerId:'local-user',metadata:{}} as any);expect(created.title).toBe('Test record');await repo.remove(created.id);expect((await repo.list('jobs')).some(x=>x.id===created.id)).toBe(false)})});

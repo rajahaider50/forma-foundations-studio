@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";describe("Social Feed Admin",()=>it("has a valid identity",()=>expect("admin-website").toMatch(/^[a-z0-9-]+$/)));

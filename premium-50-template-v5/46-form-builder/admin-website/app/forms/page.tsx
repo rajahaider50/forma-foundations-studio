@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Page(){return <main className="mx-auto max-w-5xl p-8"><p className="text-sm text-cyan-300">Form Builder</p><h1 className="mt-2 text-4xl font-bold">Forms</h1><p className="mt-4 max-w-2xl text-slate-400">Client-facing entry point for the forms workflow. Continue into the authenticated admin workspace for CRUD, permissions and provider-backed actions.</p><Link className="mt-6 inline-block rounded-xl bg-violet-500 px-4 py-2" href="/">Back to admin</Link></main>}

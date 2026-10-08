@@ -1,0 +1,2 @@
+# Shared Premium Design
+Dark luxury surfaces, layered glass, violet/cyan/orange accents, responsive grids, large typography, spring motion, focus states and explicit loading/error/empty states. Assets should be replaced only with properly licensed material.

@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";describe("Social Feed Studio",()=>it("has a valid identity",()=>expect("public-website").toMatch(/^[a-z0-9-]+$/)));

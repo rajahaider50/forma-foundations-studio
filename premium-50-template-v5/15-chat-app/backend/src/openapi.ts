@@ -1,0 +1,1 @@
+export const openapi={openapi:"3.0.3",info:{title:"Chat App API",version:"3.0.0"},paths:{"/health":{get:{responses:{200:{description:"Healthy"}}}},"/api/items":{get:{summary:"List items"},post:{summary:"Create item"}},"/api/items/{id}":{patch:{summary:"Update item"},delete:{summary:"Delete item"}}}};

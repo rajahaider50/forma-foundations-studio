@@ -1,0 +1,3 @@
+import Link from "next/link";
+const modules=["items", "warehouses", "stock"];
+export default function FeaturesPage(){return <main className="mx-auto max-w-6xl p-8"><p className="text-sm text-cyan-300">Inventory</p><h1 className="text-4xl font-bold">Capabilities</h1><div className="mt-8 grid gap-4 md:grid-cols-2">{modules.map(m=><Link key={m} href={`/services?module=${m}`} className="rounded-2xl border border-white/10 bg-white/[.04] p-5"><h2 className="font-semibold">{m}</h2><p className="mt-2 text-sm text-slate-400">Explore the reusable {m} workflow and integration boundary.</p></Link>)}</div></main>}

@@ -1,0 +1,9 @@
+{
+  "templates": 50,
+  "surfacesPerTemplate": 7,
+  "contractPass": true,
+  "contractFailures": 0,
+  "tsFiles": 4400,
+  "parseErrors": 0,
+  "parseErrorFiles": []
+}

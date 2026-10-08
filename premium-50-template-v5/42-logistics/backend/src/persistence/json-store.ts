@@ -1,0 +1,2 @@
+import {existsSync,readFileSync,writeFileSync,mkdirSync} from "node:fs";import {dirname} from "node:path";
+export class JsonStore<T>{constructor(private file:string,private initial:T){mkdirSync(dirname(file),{recursive:true});if(!existsSync(file))this.save(initial)}read():T{try{return JSON.parse(readFileSync(this.file,"utf8")) as T}catch{return this.initial}}save(value:T){writeFileSync(this.file,JSON.stringify(value,null,2),"utf8");return value}}

@@ -1,0 +1,4 @@
+package com.premium.template.userandroid.feature.modules
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+@Composable fun ProgressScreen(onCreate:()->Unit){Card{Column{Text("Progress");Text("Domain-specific progress workflow");Button(onClick=onCreate){Text("Create")}}}}

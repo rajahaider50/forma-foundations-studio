@@ -1,0 +1,2 @@
+# Security
+Never commit `.env` files or secrets. Enforce authorization server-side. Use secure httpOnly cookies for browser sessions, strong password hashing, rate limiting, CSRF protection where applicable, strict upload validation, audit logging, dependency review and HTTPS in production.

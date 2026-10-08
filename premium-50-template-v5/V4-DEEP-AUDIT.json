@@ -1,0 +1,1087 @@
+{
+  "version": "v4-deep-audit",
+  "templates": [
+    {
+      "id": "01-saas-dashboard",
+      "name": "SaaS Dashboard",
+      "modules": [
+        "workspaces",
+        "projects",
+        "tasks",
+        "analytics"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "02-e-commerce",
+      "name": "E-Commerce",
+      "modules": [
+        "products",
+        "cart",
+        "checkout",
+        "orders"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "03-booking-platform",
+      "name": "Booking Platform",
+      "modules": [
+        "services",
+        "availability",
+        "bookings"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "04-crm",
+      "name": "CRM",
+      "modules": [
+        "contacts",
+        "leads",
+        "notes",
+        "pipelines"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "05-project-manager",
+      "name": "Project Manager",
+      "modules": [
+        "projects",
+        "tasks",
+        "kanban",
+        "calendar"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "06-invoicing",
+      "name": "Invoicing",
+      "modules": [
+        "clients",
+        "invoices",
+        "payments"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "07-finance-tracker",
+      "name": "Finance Tracker",
+      "modules": [
+        "transactions",
+        "budgets",
+        "accounts"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "08-fitness-tracker",
+      "name": "Fitness Tracker",
+      "modules": [
+        "workouts",
+        "goals",
+        "progress"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "09-learning-platform",
+      "name": "Learning Platform",
+      "modules": [
+        "courses",
+        "lessons",
+        "quizzes",
+        "progress"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "10-real-estate",
+      "name": "Real Estate",
+      "modules": [
+        "listings",
+        "viewings",
+        "favorites"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "11-food-delivery",
+      "name": "Food Delivery",
+      "modules": [
+        "restaurants",
+        "menu",
+        "cart",
+        "orders"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "12-travel-planner",
+      "name": "Travel Planner",
+      "modules": [
+        "trips",
+        "itinerary",
+        "places"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "13-event-management",
+      "name": "Event Management",
+      "modules": [
+        "events",
+        "tickets",
+        "attendees"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "14-helpdesk",
+      "name": "Helpdesk",
+      "modules": [
+        "tickets",
+        "agents",
+        "knowledgebase"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "15-chat-app",
+      "name": "Chat App",
+      "modules": [
+        "threads",
+        "messages",
+        "attachments"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "16-social-feed",
+      "name": "Social Feed",
+      "modules": [
+        "posts",
+        "comments",
+        "reactions",
+        "following"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "17-job-board",
+      "name": "Job Board",
+      "modules": [
+        "jobs",
+        "companies",
+        "applications"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "18-inventory",
+      "name": "Inventory",
+      "modules": [
+        "items",
+        "warehouses",
+        "stock"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "19-point-of-sale",
+      "name": "Point of Sale",
+      "modules": [
+        "products",
+        "carts",
+        "sales"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "20-analytics",
+      "name": "Analytics",
+      "modules": [
+        "dashboards",
+        "metrics",
+        "reports"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "21-internal-tools",
+      "name": "Internal Tools",
+      "modules": [
+        "users",
+        "roles",
+        "workflows"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "22-content-cms",
+      "name": "Content CMS",
+      "modules": [
+        "posts",
+        "media",
+        "drafts",
+        "publishing"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "23-blog",
+      "name": "Blog",
+      "modules": [
+        "posts",
+        "authors",
+        "bookmarks"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "24-podcast",
+      "name": "Podcast",
+      "modules": [
+        "shows",
+        "episodes",
+        "queue"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "25-music-library",
+      "name": "Music Library",
+      "modules": [
+        "artists",
+        "albums",
+        "tracks",
+        "playlists"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "26-video-library",
+      "name": "Video Library",
+      "modules": [
+        "videos",
+        "watchlist",
+        "progress"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "27-ai-assistant",
+      "name": "AI Assistant",
+      "modules": [
+        "threads",
+        "prompts",
+        "usage"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "28-document-editor",
+      "name": "Document Editor",
+      "modules": [
+        "documents",
+        "versions",
+        "comments"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "29-file-manager",
+      "name": "File Manager",
+      "modules": [
+        "files",
+        "folders",
+        "sharing"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "30-calendar",
+      "name": "Calendar",
+      "modules": [
+        "events",
+        "attendees",
+        "reminders"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "31-habit-tracker",
+      "name": "Habit Tracker",
+      "modules": [
+        "habits",
+        "checkins",
+        "streaks"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "32-expense-split",
+      "name": "Expense Split",
+      "modules": [
+        "groups",
+        "expenses",
+        "balances"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "33-subscription-manager",
+      "name": "Subscription Manager",
+      "modules": [
+        "subscriptions",
+        "renewals",
+        "billing"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "34-password-manager",
+      "name": "Password Manager",
+      "modules": [
+        "vault",
+        "items",
+        "sharing"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "35-support-portal",
+      "name": "Support Portal",
+      "modules": [
+        "faq",
+        "tickets",
+        "feedback"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "36-community",
+      "name": "Community",
+      "modules": [
+        "groups",
+        "posts",
+        "reactions",
+        "members"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "37-marketplace",
+      "name": "Marketplace",
+      "modules": [
+        "listings",
+        "favorites",
+        "messages"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "38-restaurant-admin",
+      "name": "Restaurant Admin",
+      "modules": [
+        "orders",
+        "menu",
+        "kitchen",
+        "staff"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "39-school-admin",
+      "name": "School Admin",
+      "modules": [
+        "students",
+        "attendance",
+        "grades"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "40-hospital-admin",
+      "name": "Hospital Admin",
+      "modules": [
+        "patients",
+        "appointments",
+        "records"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "41-hotel-admin",
+      "name": "Hotel Admin",
+      "modules": [
+        "rooms",
+        "reservations",
+        "guests"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "42-logistics",
+      "name": "Logistics",
+      "modules": [
+        "shipments",
+        "tracking",
+        "dispatch"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "43-fleet-manager",
+      "name": "Fleet Manager",
+      "modules": [
+        "vehicles",
+        "drivers",
+        "maintenance"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "44-monitoring",
+      "name": "Monitoring",
+      "modules": [
+        "services",
+        "alerts",
+        "logs"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "45-survey-builder",
+      "name": "Survey Builder",
+      "modules": [
+        "surveys",
+        "questions",
+        "responses"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "46-form-builder",
+      "name": "Form Builder",
+      "modules": [
+        "forms",
+        "fields",
+        "submissions"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "47-portfolio-studio",
+      "name": "Portfolio Studio",
+      "modules": [
+        "projects",
+        "case-studies",
+        "leads"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "48-agency-studio",
+      "name": "Agency Studio",
+      "modules": [
+        "services",
+        "projects",
+        "leads"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "49-digital-wallet",
+      "name": "Digital Wallet",
+      "modules": [
+        "accounts",
+        "transfers",
+        "transactions"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    },
+    {
+      "id": "50-mobile-commerce",
+      "name": "Mobile Commerce",
+      "modules": [
+        "products",
+        "cart",
+        "orders",
+        "delivery"
+      ],
+      "checks": {
+        "surfaces": true,
+        "web_module_routes": true,
+        "admin_public_module_routes": true,
+        "android_layers": true,
+        "android_module_screens": true,
+        "backend_layers": true,
+        "shared_layers": true,
+        "tests": true,
+        "docs": true
+      },
+      "pass": true
+    }
+  ],
+  "all_templates_pass_required_structure": true,
+  "checks_pass_counts": {
+    "surfaces": 50,
+    "web_module_routes": 50,
+    "admin_public_module_routes": 50,
+    "android_layers": 50,
+    "android_module_screens": 50,
+    "backend_layers": 50,
+    "shared_layers": 50,
+    "tests": 50,
+    "docs": 50
+  },
+  "weighted_score_percent": 91.0,
+  "notes": [
+    "Score measures reusable source completeness, not live third-party deployment.",
+    "Real credentials, signing keys, cloud accounts and provider billing are intentionally absent.",
+    "Prisma adapter exists but is not automatically selected in local mode; production wiring is a client integration boundary.",
+    "Android cache is deterministic demo cache; persistent Room/remote production adapters remain integration boundaries.",
+    "Dependency installation/build execution could not be completed in this environment because npm install timed out; TypeScript/TSX syntax was statically parsed successfully."
+  ]
+}

@@ -1,0 +1,2 @@
+import type {EntityRepository} from './repository';import type {ModuleKey} from './types';
+export class EntityService{constructor(private repo:EntityRepository){}list(module:ModuleKey,q?:string){return this.repo.list(module,q)}get(id:string){return this.repo.get(id)}create(input:any){if(!input.title?.trim())throw new Error('TITLE_REQUIRED');return this.repo.create(input)}update(id:string,patch:any){return this.repo.update(id,patch)}remove(id:string){return this.repo.remove(id)}}

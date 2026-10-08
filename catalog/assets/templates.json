@@ -1,0 +1,502 @@
+[
+  {
+    "id": "01-saas-dashboard",
+    "number": "01",
+    "name": "SaaS Dashboard",
+    "slug": "forma-p50-01-saas-dashboard",
+    "category": "work",
+    "description": "SaaS Dashboard product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-01-saas-dashboard.vercel.app",
+    "rootDirectory": "premium-50-template-v5/01-saas-dashboard/public-website"
+  },
+  {
+    "id": "02-e-commerce",
+    "number": "02",
+    "name": "E-Commerce",
+    "slug": "forma-p50-02-e-commerce",
+    "category": "commerce",
+    "description": "E-Commerce product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-02-e-commerce.vercel.app",
+    "rootDirectory": "premium-50-template-v5/02-e-commerce/public-website"
+  },
+  {
+    "id": "03-booking-platform",
+    "number": "03",
+    "name": "Booking Platform",
+    "slug": "forma-p50-03-booking-platform",
+    "category": "commerce",
+    "description": "Booking Platform product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-03-booking-platform.vercel.app",
+    "rootDirectory": "premium-50-template-v5/03-booking-platform/public-website"
+  },
+  {
+    "id": "04-crm",
+    "number": "04",
+    "name": "CRM",
+    "slug": "forma-p50-04-crm",
+    "category": "work",
+    "description": "CRM product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-04-crm.vercel.app",
+    "rootDirectory": "premium-50-template-v5/04-crm/public-website"
+  },
+  {
+    "id": "05-project-manager",
+    "number": "05",
+    "name": "Project Manager",
+    "slug": "forma-p50-05-project-manager",
+    "category": "work",
+    "description": "Project Manager product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-05-project-manager.vercel.app",
+    "rootDirectory": "premium-50-template-v5/05-project-manager/public-website"
+  },
+  {
+    "id": "06-invoicing",
+    "number": "06",
+    "name": "Invoicing",
+    "slug": "forma-p50-06-invoicing",
+    "category": "work",
+    "description": "Invoicing product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-06-invoicing.vercel.app",
+    "rootDirectory": "premium-50-template-v5/06-invoicing/public-website"
+  },
+  {
+    "id": "07-finance-tracker",
+    "number": "07",
+    "name": "Finance Tracker",
+    "slug": "forma-p50-07-finance-tracker",
+    "category": "work",
+    "description": "Finance Tracker product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-07-finance-tracker.vercel.app",
+    "rootDirectory": "premium-50-template-v5/07-finance-tracker/public-website"
+  },
+  {
+    "id": "08-fitness-tracker",
+    "number": "08",
+    "name": "Fitness Tracker",
+    "slug": "forma-p50-08-fitness-tracker",
+    "category": "personal",
+    "description": "Fitness Tracker product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-08-fitness-tracker.vercel.app",
+    "rootDirectory": "premium-50-template-v5/08-fitness-tracker/public-website"
+  },
+  {
+    "id": "09-learning-platform",
+    "number": "09",
+    "name": "Learning Platform",
+    "slug": "forma-p50-09-learning-platform",
+    "category": "personal",
+    "description": "Learning Platform product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-09-learning-platform.vercel.app",
+    "rootDirectory": "premium-50-template-v5/09-learning-platform/public-website"
+  },
+  {
+    "id": "10-real-estate",
+    "number": "10",
+    "name": "Real Estate",
+    "slug": "forma-p50-10-real-estate",
+    "category": "services",
+    "description": "Real Estate product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-10-real-estate.vercel.app",
+    "rootDirectory": "premium-50-template-v5/10-real-estate/public-website"
+  },
+  {
+    "id": "11-food-delivery",
+    "number": "11",
+    "name": "Food Delivery",
+    "slug": "forma-p50-11-food-delivery",
+    "category": "commerce",
+    "description": "Food Delivery product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-11-food-delivery.vercel.app",
+    "rootDirectory": "premium-50-template-v5/11-food-delivery/public-website"
+  },
+  {
+    "id": "12-travel-planner",
+    "number": "12",
+    "name": "Travel Planner",
+    "slug": "forma-p50-12-travel-planner",
+    "category": "personal",
+    "description": "Travel Planner product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-12-travel-planner.vercel.app",
+    "rootDirectory": "premium-50-template-v5/12-travel-planner/public-website"
+  },
+  {
+    "id": "13-event-management",
+    "number": "13",
+    "name": "Event Management",
+    "slug": "forma-p50-13-event-management",
+    "category": "services",
+    "description": "Event Management product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-13-event-management.vercel.app",
+    "rootDirectory": "premium-50-template-v5/13-event-management/public-website"
+  },
+  {
+    "id": "14-helpdesk",
+    "number": "14",
+    "name": "Helpdesk",
+    "slug": "forma-p50-14-helpdesk",
+    "category": "services",
+    "description": "Helpdesk product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-14-helpdesk.vercel.app",
+    "rootDirectory": "premium-50-template-v5/14-helpdesk/public-website"
+  },
+  {
+    "id": "15-chat-app",
+    "number": "15",
+    "name": "Chat App",
+    "slug": "forma-p50-15-chat-app",
+    "category": "work",
+    "description": "Chat App product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-15-chat-app.vercel.app",
+    "rootDirectory": "premium-50-template-v5/15-chat-app/public-website"
+  },
+  {
+    "id": "16-social-feed",
+    "number": "16",
+    "name": "Social Feed",
+    "slug": "forma-p50-16-social-feed",
+    "category": "content",
+    "description": "Social Feed product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-16-social-feed.vercel.app",
+    "rootDirectory": "premium-50-template-v5/16-social-feed/public-website"
+  },
+  {
+    "id": "17-job-board",
+    "number": "17",
+    "name": "Job Board",
+    "slug": "forma-p50-17-job-board",
+    "category": "services",
+    "description": "Job Board product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-17-job-board.vercel.app",
+    "rootDirectory": "premium-50-template-v5/17-job-board/public-website"
+  },
+  {
+    "id": "18-inventory",
+    "number": "18",
+    "name": "Inventory",
+    "slug": "forma-p50-18-inventory",
+    "category": "work",
+    "description": "Inventory product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-18-inventory.vercel.app",
+    "rootDirectory": "premium-50-template-v5/18-inventory/public-website"
+  },
+  {
+    "id": "19-point-of-sale",
+    "number": "19",
+    "name": "Point of Sale",
+    "slug": "forma-p50-19-point-of-sale",
+    "category": "commerce",
+    "description": "Point of Sale product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-19-point-of-sale.vercel.app",
+    "rootDirectory": "premium-50-template-v5/19-point-of-sale/public-website"
+  },
+  {
+    "id": "20-analytics",
+    "number": "20",
+    "name": "Analytics",
+    "slug": "forma-p50-20-analytics",
+    "category": "work",
+    "description": "Analytics product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-20-analytics.vercel.app",
+    "rootDirectory": "premium-50-template-v5/20-analytics/public-website"
+  },
+  {
+    "id": "21-internal-tools",
+    "number": "21",
+    "name": "Internal Tools",
+    "slug": "forma-p50-21-internal-tools",
+    "category": "work",
+    "description": "Internal Tools product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-21-internal-tools.vercel.app",
+    "rootDirectory": "premium-50-template-v5/21-internal-tools/public-website"
+  },
+  {
+    "id": "22-content-cms",
+    "number": "22",
+    "name": "Content CMS",
+    "slug": "forma-p50-22-content-cms",
+    "category": "content",
+    "description": "Content CMS product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-22-content-cms.vercel.app",
+    "rootDirectory": "premium-50-template-v5/22-content-cms/public-website"
+  },
+  {
+    "id": "23-blog",
+    "number": "23",
+    "name": "Blog",
+    "slug": "forma-p50-23-blog",
+    "category": "content",
+    "description": "Blog product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-23-blog.vercel.app",
+    "rootDirectory": "premium-50-template-v5/23-blog/public-website"
+  },
+  {
+    "id": "24-podcast",
+    "number": "24",
+    "name": "Podcast",
+    "slug": "forma-p50-24-podcast",
+    "category": "content",
+    "description": "Podcast product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-24-podcast.vercel.app",
+    "rootDirectory": "premium-50-template-v5/24-podcast/public-website"
+  },
+  {
+    "id": "25-music-library",
+    "number": "25",
+    "name": "Music Library",
+    "slug": "forma-p50-25-music-library",
+    "category": "content",
+    "description": "Music Library product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-25-music-library.vercel.app",
+    "rootDirectory": "premium-50-template-v5/25-music-library/public-website"
+  },
+  {
+    "id": "26-video-library",
+    "number": "26",
+    "name": "Video Library",
+    "slug": "forma-p50-26-video-library",
+    "category": "content",
+    "description": "Video Library product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-26-video-library.vercel.app",
+    "rootDirectory": "premium-50-template-v5/26-video-library/public-website"
+  },
+  {
+    "id": "27-ai-assistant",
+    "number": "27",
+    "name": "AI Assistant",
+    "slug": "forma-p50-27-ai-assistant",
+    "category": "work",
+    "description": "AI Assistant product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-27-ai-assistant.vercel.app",
+    "rootDirectory": "premium-50-template-v5/27-ai-assistant/public-website"
+  },
+  {
+    "id": "28-document-editor",
+    "number": "28",
+    "name": "Document Editor",
+    "slug": "forma-p50-28-document-editor",
+    "category": "work",
+    "description": "Document Editor product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-28-document-editor.vercel.app",
+    "rootDirectory": "premium-50-template-v5/28-document-editor/public-website"
+  },
+  {
+    "id": "29-file-manager",
+    "number": "29",
+    "name": "File Manager",
+    "slug": "forma-p50-29-file-manager",
+    "category": "work",
+    "description": "File Manager product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-29-file-manager.vercel.app",
+    "rootDirectory": "premium-50-template-v5/29-file-manager/public-website"
+  },
+  {
+    "id": "30-calendar",
+    "number": "30",
+    "name": "Calendar",
+    "slug": "forma-p50-30-calendar",
+    "category": "personal",
+    "description": "Calendar product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-30-calendar.vercel.app",
+    "rootDirectory": "premium-50-template-v5/30-calendar/public-website"
+  },
+  {
+    "id": "31-habit-tracker",
+    "number": "31",
+    "name": "Habit Tracker",
+    "slug": "forma-p50-31-habit-tracker",
+    "category": "personal",
+    "description": "Habit Tracker product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-31-habit-tracker.vercel.app",
+    "rootDirectory": "premium-50-template-v5/31-habit-tracker/public-website"
+  },
+  {
+    "id": "32-expense-split",
+    "number": "32",
+    "name": "Expense Split",
+    "slug": "forma-p50-32-expense-split",
+    "category": "personal",
+    "description": "Expense Split product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-32-expense-split.vercel.app",
+    "rootDirectory": "premium-50-template-v5/32-expense-split/public-website"
+  },
+  {
+    "id": "33-subscription-manager",
+    "number": "33",
+    "name": "Subscription Manager",
+    "slug": "forma-p50-33-subscription-manager",
+    "category": "work",
+    "description": "Subscription Manager product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-33-subscription-manager.vercel.app",
+    "rootDirectory": "premium-50-template-v5/33-subscription-manager/public-website"
+  },
+  {
+    "id": "34-password-manager",
+    "number": "34",
+    "name": "Password Manager",
+    "slug": "forma-p50-34-password-manager",
+    "category": "personal",
+    "description": "Password Manager product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-34-password-manager.vercel.app",
+    "rootDirectory": "premium-50-template-v5/34-password-manager/public-website"
+  },
+  {
+    "id": "35-support-portal",
+    "number": "35",
+    "name": "Support Portal",
+    "slug": "forma-p50-35-support-portal",
+    "category": "services",
+    "description": "Support Portal product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-35-support-portal.vercel.app",
+    "rootDirectory": "premium-50-template-v5/35-support-portal/public-website"
+  },
+  {
+    "id": "36-community",
+    "number": "36",
+    "name": "Community",
+    "slug": "forma-p50-36-community",
+    "category": "content",
+    "description": "Community product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-36-community.vercel.app",
+    "rootDirectory": "premium-50-template-v5/36-community/public-website"
+  },
+  {
+    "id": "37-marketplace",
+    "number": "37",
+    "name": "Marketplace",
+    "slug": "forma-p50-37-marketplace",
+    "category": "commerce",
+    "description": "Marketplace product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-37-marketplace.vercel.app",
+    "rootDirectory": "premium-50-template-v5/37-marketplace/public-website"
+  },
+  {
+    "id": "38-restaurant-admin",
+    "number": "38",
+    "name": "Restaurant Admin",
+    "slug": "forma-p50-38-restaurant-admin",
+    "category": "commerce",
+    "description": "Restaurant Admin product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-38-restaurant-admin.vercel.app",
+    "rootDirectory": "premium-50-template-v5/38-restaurant-admin/public-website"
+  },
+  {
+    "id": "39-school-admin",
+    "number": "39",
+    "name": "School Admin",
+    "slug": "forma-p50-39-school-admin",
+    "category": "services",
+    "description": "School Admin product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-39-school-admin.vercel.app",
+    "rootDirectory": "premium-50-template-v5/39-school-admin/public-website"
+  },
+  {
+    "id": "40-hospital-admin",
+    "number": "40",
+    "name": "Hospital Admin",
+    "slug": "forma-p50-40-hospital-admin",
+    "category": "services",
+    "description": "Hospital Admin product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-40-hospital-admin.vercel.app",
+    "rootDirectory": "premium-50-template-v5/40-hospital-admin/public-website"
+  },
+  {
+    "id": "41-hotel-admin",
+    "number": "41",
+    "name": "Hotel Admin",
+    "slug": "forma-p50-41-hotel-admin",
+    "category": "services",
+    "description": "Hotel Admin product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-41-hotel-admin.vercel.app",
+    "rootDirectory": "premium-50-template-v5/41-hotel-admin/public-website"
+  },
+  {
+    "id": "42-logistics",
+    "number": "42",
+    "name": "Logistics",
+    "slug": "forma-p50-42-logistics",
+    "category": "services",
+    "description": "Logistics product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-42-logistics.vercel.app",
+    "rootDirectory": "premium-50-template-v5/42-logistics/public-website"
+  },
+  {
+    "id": "43-fleet-manager",
+    "number": "43",
+    "name": "Fleet Manager",
+    "slug": "forma-p50-43-fleet-manager",
+    "category": "services",
+    "description": "Fleet Manager product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-43-fleet-manager.vercel.app",
+    "rootDirectory": "premium-50-template-v5/43-fleet-manager/public-website"
+  },
+  {
+    "id": "44-monitoring",
+    "number": "44",
+    "name": "Monitoring",
+    "slug": "forma-p50-44-monitoring",
+    "category": "work",
+    "description": "Monitoring product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-44-monitoring.vercel.app",
+    "rootDirectory": "premium-50-template-v5/44-monitoring/public-website"
+  },
+  {
+    "id": "45-survey-builder",
+    "number": "45",
+    "name": "Survey Builder",
+    "slug": "forma-p50-45-survey-builder",
+    "category": "services",
+    "description": "Survey Builder product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-45-survey-builder.vercel.app",
+    "rootDirectory": "premium-50-template-v5/45-survey-builder/public-website"
+  },
+  {
+    "id": "46-form-builder",
+    "number": "46",
+    "name": "Form Builder",
+    "slug": "forma-p50-46-form-builder",
+    "category": "services",
+    "description": "Form Builder product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-46-form-builder.vercel.app",
+    "rootDirectory": "premium-50-template-v5/46-form-builder/public-website"
+  },
+  {
+    "id": "47-portfolio-studio",
+    "number": "47",
+    "name": "Portfolio Studio",
+    "slug": "forma-p50-47-portfolio-studio",
+    "category": "personal",
+    "description": "Portfolio Studio product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-47-portfolio-studio.vercel.app",
+    "rootDirectory": "premium-50-template-v5/47-portfolio-studio/public-website"
+  },
+  {
+    "id": "48-agency-studio",
+    "number": "48",
+    "name": "Agency Studio",
+    "slug": "forma-p50-48-agency-studio",
+    "category": "services",
+    "description": "Agency Studio product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-48-agency-studio.vercel.app",
+    "rootDirectory": "premium-50-template-v5/48-agency-studio/public-website"
+  },
+  {
+    "id": "49-digital-wallet",
+    "number": "49",
+    "name": "Digital Wallet",
+    "slug": "forma-p50-49-digital-wallet",
+    "category": "work",
+    "description": "Digital Wallet product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-49-digital-wallet.vercel.app",
+    "rootDirectory": "premium-50-template-v5/49-digital-wallet/public-website"
+  },
+  {
+    "id": "50-mobile-commerce",
+    "number": "50",
+    "name": "Mobile Commerce",
+    "slug": "forma-p50-50-mobile-commerce",
+    "category": "commerce",
+    "description": "Mobile Commerce product foundation with a live public-site demo and local-first application flows.",
+    "url": "https://forma-p50-50-mobile-commerce.vercel.app",
+    "rootDirectory": "premium-50-template-v5/50-mobile-commerce/public-website"
+  }
+]

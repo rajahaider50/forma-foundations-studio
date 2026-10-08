@@ -1,0 +1,1 @@
+export type Role="user"|"manager"|"admin"|"owner";const permissions:Record<Role,string[]>={user:["read"],manager:["read","write"],admin:["read","write","delete","manage-users"],owner:["read","write","delete","manage-users","billing"]};export function allowed(role:Role,permission:string){return permissions[role]?.includes(permission)??false}

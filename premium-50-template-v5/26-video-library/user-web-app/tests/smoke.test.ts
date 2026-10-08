@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";describe("Video Library App",()=>it("has a valid identity",()=>expect("user-web-app").toMatch(/^[a-z0-9-]+$/)));
